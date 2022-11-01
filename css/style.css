@@ -1,0 +1,107 @@
+body{
+    font-family: Poppins;
+}
+
+
+#home-banner{
+   position: relative;
+}
+
+#home-banner:before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    opacity: 0.3;
+
+    background-image: url('../img/home-banner.jpg');
+    background-position: center center;
+    background-size: cover;
+    width: 1115px;
+    height: 500px;
+}
+
+
+#homebanner-text1{
+    position: relative;
+    left: 420px;
+    font-size: small;
+    top: 110px;
+}
+
+#homebanner-text2{
+    position: relative;
+    left: 250px; 
+    font-weight: bold;
+    top:120px;
+}
+
+#homebanner-text3{
+    position: relative;
+    font-size: small;
+    left: 310px;
+    top:130px;
+}
+
+#homebanner-text4{
+    position: relative;
+    font-size: small;
+    left: 440px;
+    top:108px;
+    
+}
+
+#donatenow-button{
+    width: 150px;
+    height: 40px;
+    top: 130px;
+    left: 400px;
+
+    text-align: center;
+    color:white;
+    position: relative;
+    font-weight: bolder; 
+    text-align: center;
+    background-color: lightseagreen;
+}
+
+#viewactivity-button{
+    width: 150px;
+    height: 40px;
+    top: 130px;
+    left: 410px;
+
+    text-align: center;
+    color:black;
+    position: relative;
+    font-weight: bolder; 
+    text-align: center;
+    background-color: transparent;
+}
+
+#update-box{
+    position: relative;
+    top:239px;
+    left: 80px;
+    height: 120px;
+    width: 280px;
+    background-color: black;
+    
+}
+#vol-box{
+    position: relative;
+    top: 119px;
+    left: 440px;
+    height: 120px;
+    width: 280px;
+    background-color: lightseagreen;
+}
+
+#don-box{
+    position: relative;
+    left: 800px;
+    height: 120px;
+    width: 280px;
+    background-color: black;
+    
+    
+}
