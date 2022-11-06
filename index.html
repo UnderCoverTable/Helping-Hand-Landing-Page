@@ -11,16 +11,43 @@
     <link href = "./css/style.css", rel = "stylesheet">
 
     <title>Helping Hand</title>
+    <link rel="icon" href="./img/favicon.ico">
 
 </head>
 <body>
     
+
+    <div class="container">
+        <div class="float-child">
+            <div style="">
+                <a href="https://www.reddit.com/" style="text-decoration: none;"> <img src="./img/icons/reddit.png" alt="" style = "width: 25px; height: 15px;padding-right: 10px;">
+                <a href="https://twitter.com/login" style="text-decoration: none;"><img src="./img/icons/twitter.png" alt="" style = "width: 25px; height: 15px;padding-right: 10px;">
+                <a href="https://www.facebook.com/" style="text-decoration: none;"><img src="./img/icons/facebook.png" alt="" style = "width: 25px; height: 15px;padding-right: 10px;">
+                <a href="https://www.tumblr.com/" style="text-decoration: none;"><img src="./img/icons/tumblr.png" alt="" style = "width: 25px; height: 15px;padding-right: 10px;">
+                <a href="#">
+            </div>
+        </div>
+        <div class="float-child" style="padding-left:657px;height:48px">
+            <select style="background-color: grey;;border-color: white;border: 1px solid white;color: white;">
+                <option value="English" style="color:white;" >English</option>
+                <option value="Urdu"  style="color:white;" >Urdu</option>
+            </select>
+            <button type="button" style="background-color: grey;border-color: white;color: white;border: 1px solid white;">My Account</button>
+            <button type="button" style="background-color: rgb(91, 185, 154);border-color: white;color: white;border: 1px solid white;">Donate Now</button>
+
+        </div>
+
+    </div>
+    <br>
+    <br>
+
+
     <!-- header navbar -->
     <div class="container">
 
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
-                <img style = "width: 15%;" src="./img/logo.png" alt="" >
+              <img style = "width: 35%;" src="./img/logo.png" alt="" >
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -123,16 +150,19 @@
                 <br>
 
                 <div style="position:absolute;height: 130px; width: 130px;border: 1px solid lightgrey;">
+                    <img src="./img/icons/data.png" alt="" style="width: 30px;height:30px;position: absolute;top: 10px;left: 10px;">
                     <h3 style = "position:absolute;top:50px;left:10px;font-weight: bolder;">$2.5M</h3>
                     <p style = "position:absolute;font-size: small;color:gray;top:90px;left:10px;">Total Donations</p>
                 </div>
 
                 <div style="position:absolute;height: 130px; width: 130px;border: 1px solid lightgrey; left:150px">
+                    <img src="./img/icons/graph.png" alt="" style="width: 30px;height:30px;position: absolute;top: 10px;left: 10px;">
                     <h3 style = "position:absolute;top:50px;left:10px;font-weight: bolder;">1465</h3>
                     <p style = "position:absolute;font-size: small;color:gray;top:90px;left:10px;">Total Projects</p>
                 </div>
 
                 <div style="position:absolute;height: 130px; width: 130px;border: 1px solid lightgrey;left: 300px;">
+                    <img src="./img/icons/love.png" alt="" style="width: 30px;height:30px;position: absolute;top: 10px;left: 10px;">
                     <h3 style = "position:absolute;top:50px;left:10px;font-weight: bolder;">3965</h3>
                     <p style = "position:absolute;font-size: small;color:gray;top:90px;left:10px;">Total Volunteers</p>
                 </div>
@@ -163,11 +193,463 @@
         </div>
     </div>
 
+    <br>
+    <br>
+    <br>
+
 
     <div class="container">
 
+        <div style = "background-color: rgb(240,240,240);width:100%;height: 500px;">
+
+            <div id = "cause-box1">
+                <div style="height:150px; width: 278px;background-image:url(./img/causes/causes-1.jpg);">
+                    <div style="height:10px;width:20px;background-color:aquamarine;position: absolute;top: 140px;left:120px;text-align: center;">   
+                        <p style = "font-size: xx-small;">50%</p>
+                    </div>
+                </div>
+                
+                <div style="border-bottom:3px solid aquamarine; width:140px;">
+
+                </div>
+                <div style = "height: 100px;width: 100%;margin: 10px;">
+                    <p style="font-weight:bolder;"> Students Around a Table</p>
+                    <p style = "font-size: xx-small;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis velit ut nibh laoreet, sit amet varius ipsum fermentum. Vivamus eget massa libero. </p>
+                </div>
+
+                <div style = "height: 40px;width: 140px;background-color: aquamarine;position: absolute; top: 258px;text-align: center;">
+                    <p style="font-size:small;color:grey;font-weight:bold;position:absolute;top:10px;left:15px;"> Raised: $50,000</p>
+                </div>
+                <div style = "border:1px solid rgb(240,240,240);height: 40px;width: 138px;background-color: white;position: absolute; top: 258px;left:140px;">
+                    <p style="font-size:small;color:black;font-weight:bold;position:absolute;top:10px;left:15px;"> Need: $100,000</p>
+
+                </div>
+
+            </div>
+
+            <div id = "cause-box2">
+                <div style="height:150px; width: 278px;background-image:url(./img/causes/causes-2.jpg);background-size: cover;">
+                    <div style="height:10px;width:20px;background-color:aquamarine;position: absolute;top: 140px;left:190px;text-align: center;">   
+                        <p style = "font-size: xx-small;">75%</p>
+                    </div>
+                </div>
+                
+                <div style="border-bottom:3px solid aquamarine; width:210px;">
+
+                </div>
+                <div style = "height: 100px;width: 100%;margin: 10px;">
+                    <p style="font-weight:bolder;"> Tap Water</p>
+                    <p style = "font-size: xx-small;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis velit ut nibh laoreet, sit amet varius ipsum fermentum. Vivamus eget massa libero. </p>
+                </div>
+
+                <div style = "height: 40px;width: 140px;background-color: aquamarine;position: absolute; top: 258px;text-align: center;">
+                    <p style="font-size:small;color:grey;font-weight:bold;position:absolute;top:10px;left:15px;"> Raised: $75,000</p>
+                </div>
+                <div style = "border:1px solid rgb(240,240,240);height: 40px;width: 138px;background-color: white;position: absolute; top: 258px;left:140px;">
+                    <p style="font-size:small;color:black;font-weight:bold;position:absolute;top:10px;left:15px;"> Need: $100,000</p>
+
+                </div>
+                
+            <div>
+                <div style = "width: 15px;height:15px;background-color: aqua;position: relative;top: 80px;left: 90px;"></div>
+                <div style = "width: 15px;height:15px;background-color: darkslategray;position: relative;top: 65px;left: 120px;"> </div>
+                <div style = "width: 15px;height:15px;background-color: darkslategray;position: relative;top: 50px;left: 150px;"></div>
+
+            </div>
+            </div>
+
+            <div id = "cause-box3">
+                <div style="height:150px; width: 278px;background-image:url(./img/causes/causes-3.jpg);background-size: cover;">
+                    <div style="height:10px;width:20px;background-color:aquamarine;position: absolute;top: 140px;left:258px;text-align: center;">   
+                        <p style = "font-size: xx-small;">100%</p>
+                    </div>
+                </div>
+                
+                <div style="border-bottom:3px solid aquamarine; width:278px;">
+
+                </div>
+                <div style = "height: 100px;width: 100%;margin: 10px;">
+                    <p style="font-weight:bolder;"> BOX ? Yes</p>
+                    <p style = "font-size: xx-small;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis velit ut nibh laoreet, sit amet varius ipsum fermentum. Vivamus eget massa libero. </p>
+                </div>
+
+                <div style = "height: 40px;width: 140px;background-color: aquamarine;position: absolute; top: 258px;text-align: center;">
+                    <p style="font-size:small;color:grey;font-weight:bold;position:absolute;top:10px;left:15px;"> Raised: $10000001</p>
+                </div>
+                <div style = "border:1px solid rgb(240,240,240);height: 40px;width: 138px;background-color: white;position: absolute; top: 258px;left:140px;">
+                    <p style="font-size:small;color:black;font-weight:bold;position:absolute;top:10px;left:15px;"> Need: $10000000</p>
+
+                </div>
+            </div>
+
+
+        </div>
+        
+        <div id = "feature">
+
+            <div style="height:200px ; width:700px;position:absolute;top:80px;left:220px">
+                <h1 id="feature-heading"> Our Key Features</h1>
+                <p id = "feature-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis velit ut nibh laoreet, sit amet varius ipsum fermentum. Vivamus eget massa libero. Donec at imperdiet ante. In nisl est, congue eget euismod sed, feugiat vehicula dolor. Cras tempus nulla eros, ut convallis leo semper a. Praesent tincidunt, massa ut gravida sollicitudin, tortor lacus tempor enim, et tempor diam est quis magna. Integer nulla risus, rhoncus sit amet molestie a, euismod vel nunc. Sed interdum nec mi quis porttitor.</p>
+    
+            </div>
+
+            <div id = "feature-card1">
+                <div style="height: 30px;width: 30px;background-color: aquamarine;text-align: center;position: absolute;left: 20px;top: 20px;">
+                    <p style="color:(240,240,240)">1</p>
+                </div>
+                <div>
+                    <p style="color:black;font-weight: bold;position: absolute;top: 20px;left: 60px;">Spread The Word</p>
+                    <div style="border-bottom:  1px solid rgb(240,240,240);position: relative;top: 50px;left: 70px;width: 120px;">
+                    </div>
+                    <div style="text-align:centre ;color:grey; font-size: x-small;position: absolute;width: 210px;height: 100px;margin: 25px;top: 40px;">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed eleifend lacus. Sed tristique ante eget tellus vulputate ultrices. Curabitur quis ultrices erat. Aliquam vitae tincidunt mauris.</p>
+                        <a href="#" style="color:rgb(107, 207, 174);">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div id = "feature-card2">
+                <div style="height: 30px;width: 30px;background-color: aquamarine;text-align: center;position: absolute;left: 20px;top: 20px;">
+                    <p style="color:(240,240,240)">2</p>
+                </div>
+                <div>
+                    <p style="color:black;font-weight: bold;position: absolute;top: 20px;left: 60px;">Make Donations</p>
+                    <div style="border-bottom:  1px solid rgb(240,240,240);position: relative;top: 50px;left: 70px;width: 120px;">
+                    </div>
+                    <div style="text-align:centre ;color:grey; font-size: x-small;position: absolute;width: 210px;height: 100px;margin: 25px;top: 40px;">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed eleifend lacus. Sed tristique ante eget tellus vulputate ultrices. Curabitur quis ultrices erat. Aliquam vitae tincidunt mauris.</p>
+                        <a href="#" style="color:rgb(107, 207, 174);">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div id = "feature-card3">
+                <div style="height: 30px;width: 30px;background-color: aquamarine;text-align: center;position: absolute;left: 20px;top: 20px;">
+                    <p style="color:(240,240,240)">3</p>
+                </div>
+                <div>
+                    <p style="color:black;font-weight: bold;position: absolute;top: 20px;left: 60px;">Make People Happy</p>
+                    <div style="border-bottom:  1px solid rgb(240,240,240);position: relative;top: 50px;left: 70px;width: 120px;">
+                    </div>
+                    <div style="text-align:centre ;color:grey; font-size: x-small;position: absolute;width: 210px;height: 100px;margin: 25px;top: 40px;">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed eleifend lacus. Sed tristique ante eget tellus vulputate ultrices. Curabitur quis ultrices erat. Aliquam vitae tincidunt mauris.</p>
+                        <a href="#" style="color:rgb(107, 207, 174);">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div id = "feature-card4">
+                <div style="height: 30px;width: 30px;background-color: aquamarine;text-align: center;position: absolute;left: 20px;top: 20px;">
+                    <p style="color:(240,240,240)">4</p>
+                </div>
+                <div>
+                    <p style="color:black;font-weight: bold;position: absolute;top: 20px;left: 60px;">Adopt a child</p>
+                    <div style="border-bottom:  1px solid rgb(240,240,240);position: relative;top: 50px;left: 70px;width: 120px;">
+                    </div>
+                    <div style="text-align:centre ;color:grey; font-size: x-small;position: absolute;width: 210px;height: 100px;margin: 25px;top: 40px;">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed eleifend lacus. Sed tristique ante eget tellus vulputate ultrices. Curabitur quis ultrices erat. Aliquam vitae tincidunt mauris.</p>
+                        <a href="#" style="color:rgb(107, 207, 174);">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div id = "feature-card5">
+                <div style="height: 30px;width: 30px;background-color: aquamarine;text-align: center;position: absolute;left: 20px;top: 20px;">
+                    <p style="color:(240,240,240)">5</p>
+                </div>
+                <div>
+                    <p style="color:black;font-weight: bold;position: absolute;top: 20px;left: 60px;">Sponsor Needy</p>
+                    <div style="border-bottom:  1px solid rgb(240,240,240);position: relative;top: 50px;left: 70px;width: 120px;">
+                    </div>
+                    <div style="text-align:centre ;color:grey; font-size: x-small;position: absolute;width: 210px;height: 100px;margin: 25px;top: 40px;">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed eleifend lacus. Sed tristique ante eget tellus vulputate ultrices. Curabitur quis ultrices erat. Aliquam vitae tincidunt mauris.</p>
+                        <a href="#" style="color:rgb(107, 207, 174);">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div id = "feature-card6">
+                <div style="height: 30px;width: 30px;background-color: aquamarine;text-align: center;position: absolute;left: 20px;top: 20px;">
+                    <p style="color:(240,240,240)">6</p>
+                </div>
+                <div>
+                    <p style="color:black;font-weight: bold;position: absolute;top: 20px;left: 60px;">Volunteer Now</p>
+                    <div style="border-bottom:  1px solid rgb(240,240,240);position: relative;top: 50px;left: 70px;width: 120px;">
+                    </div>
+                    <div style="text-align:centre ;color:grey; font-size: x-small;position: absolute;width: 210px;height: 100px;margin: 25px;top: 40px;">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed eleifend lacus. Sed tristique ante eget tellus vulputate ultrices. Curabitur quis ultrices erat. Aliquam vitae tincidunt mauris.</p>
+                        <a href="#" style="color:rgb(107, 207, 174);">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div style = "text-align: center; position: relative;top: -200px;">
+                <h1 style = "font-weight: bolder;">Upcoming Events</h1>
+                <p style = "color:grey;font-size: x-small;">Sed dictum tincidunt velit luctus dapibus. Donec vitae maximus enim. In sed velit felis. Curabitur nec nisi vel nisl congue rhoncus vitae at dolor. Aliquam in urna in orci fringilla mollis id at nisi.Phasellus porttitor mi id euismod eleifend. Duis felis ex, accumsan id convallis at, pulvinar quis tellus. Curabitur vitae congue enim, a imperdiet arcu. Ut libero enim, aliquam at odio sit amet, sodales pharetra est. Pellentesque eget orci quis turpis facilisis euismod eget vitae metus. Nam vel massa nisl. Aliquam eu urna et sapien viverra tempus quis quis est. Sed risus elit, vestibulum non tellus eget, iaculis dignissim est. </p>
+            </div>
+        </div>
+        
 
     </div>
+
+    <div class = "container">
+        <div>
+            <img src="./img/events/event-1.jpg" alt="" style = "width: 200px;height: 150px;position: absolute;left: 260px;">
+        </div>
+
+        <div style="text-align:left;width: 200px;height: 150px;position: absolute;left: 480px;">
+
+            <p style="color:gray;font-size: xx-small;">27th November 1956</p>
+            <h3 style="font-size:small;font-weight: bolder;">The Universe Through a Childs eyes</h3>
+            <p style="color:gray;font-size: xx-small;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed eleifend lacus. Sed tristique ante eget tellus vulputate ultrices. Curabitur quis ultrices erat.</p>
+
+        </div>
+        
+        <div>
+            <img src="./img/events/event-2.jpg" alt="" style = "width: 200px;height: 150px;position: absolute;left: 740px;">
+        </div>
+
+        <div style="text-align:left;width: 200px;height: 150px;position: absolute;left: 960px;">
+
+            <p style="color:gray;font-size: xx-small;">31th January 1926</p>
+            <h3 style="font-size:small;font-weight: bolder;">The World Through a Childs eyes</h3>
+            <p style="color:gray;font-size: xx-small;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed eleifend lacus. Sed tristique ante eget tellus vulputate ultrices. Curabitur quis ultrices erat.</p>
+
+        </div>
+        <div>
+            <div style = "width: 15px;height:15px;background-color: aqua;position: relative;top: 200px;left: 520px;"></div>
+            <div style = "width: 15px;height:15px;background-color: darkslategray;position: relative;top: 185px;left: 550px;"> </div>
+            <div style = "width: 15px;height:15px;background-color: darkslategray;position: relative;top: 170px;left: 580px;"></div>
+
+        </div>
+            
+        
+        
+
+
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <div class="container" id = "volunteer-page" ">
+        <br>
+        <h1 style="color:white;font-weight:bolder">Volunteer Yourself</h1>
+        <p style="color:white;width: 500px;left:430px;position: absolute;font-size: small;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed eleifend lacus. Sed tristique ante eget tellus vulputate ultrices. Curabitur quis ultrices erat.</p>
+
+
+        <form style="width:500px;height: 470px;background-color:rgb(91, 185, 154);position: relative;top:100px;left: 100px;text-align: center;">
+            <br>
+            <h3 style="color: white;font-weight:bolder;">Become a Volunteer</h1>
+            <p  style="color: white; font-size: small;margin: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed eleifend lacus. Sed tristique ante eget tellus vulputate ultrices. Curabitur quis ultrices erat.</p>
+
+            <input type="text" placeholder="  Your Email" style="width: 200px; height: 50px;position: absolute;background-color: rgb(91, 185, 154);border-color: white;border: 1px solid white;">
+            <input type="text" placeholder="  Your Name" style="width: 200px; height: 50px;position: absolute;right: 260px;background-color: rgb(91, 185, 154);border-color: white;border: 1px solid white;">
+            <input type="file" placeholder="  Upload your CV" style="width: 200px; height: 50px;position: absolute;top: 220px;background-color: rgb(91, 185, 154);border-color: white;">
+
+            <select style="width: 200px; height: 50px;position: absolute;top: 220px;right: 260px;background-color: rgb(91, 185, 154);border-color: white;border: 1px solid white;color: white;">
+                <option value="" style="color:white;" >Select</option>
+                <option value="Male" style="color:white;" >Male</option>
+                <option value="Female" style="color:white;" >Female</option>
+                <option value="other"  style="color:white;" >other</option>
+            </select>
+
+            <input type="text" placeholder="Enter Your message" style="width: 410px; height: 130px;position: absolute;top: 280px;right: 50px;background-color: rgb(91, 185, 154);border-color: white;border: 1px solid white;">
+            <button type="button" style="position: absolute;top: 425px;right: 360px;background-color: rgb(91, 185, 154);border-color: white;color: white;border: 1px solid white;">Apply Now</button>
+
+
+
+
+        </form>
+        
+
+    </div>
+
+
+    <div class="container" style="background-color: rgb(240,240,240);width:100%;height:900px">
+        <div style = "text-align: center; position: relative;top: 50px;">
+            <h1 style = "font-weight: bolder;">Events Gallery</h1>
+            <p style = "color:grey;font-size: x-small;">Sed dictum tincidunt velit luctus dapibus. Donec vitae maximus enim. In sed velit felis. Curabitur nec nisi vel nisl congue rhoncus vitae at dolor. Aliquam in urna in orci fringilla mollis id at nisi.Phasellus porttitor mi id euismod eleifend. Duis felis ex, accumsan id convallis at, pulvinar quis tellus. Curabitur vitae congue enim, a imperdiet arcu. Ut libero enim, aliquam at odio sit amet, sodales pharetra est. Pellentesque eget orci quis turpis facilisis euismod eget vitae metus. Nam vel massa nisl. Aliquam eu urna et sapien viverra tempus quis quis est. Sed risus elit, vestibulum non tellus eget, iaculis dignissim est. </p>
+        </div>
+        <div style="position:relative; left: 132px;top: 100px;">
+            <img style="float: left;width: 300px;height: 200px;" src="./img/gallery/g-1.jpg" alt="">
+            <img style="float: left;width: 300px;height: 200px;" src="./img/gallery/g-2.jpg" alt="">
+            <img style="float: left;width: 300px;height: 200px;" src="./img/gallery/g-3.jpg" alt="">
+
+        </div>
+        <div style="position:relative; left: 132px;top: 100px;">
+            <img style="float: left;width: 300px;height: 200px;" src="./img/gallery/g-4.jpg" alt="">
+            <img style="float: left;width: 300px;height: 200px;" src="./img/gallery/g-5.jpg" alt="">
+            <img style="float: left;width: 300px;height: 200px;" src="./img/gallery/g-6.jpg" alt="">
+
+        </div>
+        <div style="position:relative; left: 132px;top: 100px;">
+            <img style="float: left;width: 300px;height: 200px;" src="./img/gallery/g-7.jpg" alt="">
+            <img style="float: left;width: 300px;height: 200px;" src="./img/gallery/g-8.jpg" alt="">
+            <img style="float: left;width: 300px;height: 200px;" src="./img/gallery/g-9.jpg" alt="">
+
+        </div>
+    </div>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+   
+    <div class="container">
+        <div style="width: 300px;position: absolute;left: 200px;">
+            <h3 style="font-weight: bolder;">Testimonials<br>From Our Donors</h3>
+            <p style="color: grey;font-size:small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales libero sit amet luctus suscipit. Sed convallis placerat eros, eu vehicula dui aliquet sit amet. </p>
+        </div>
+
+        <div style="width: 300px;position: absolute;left: 600px;text-align: center;">
+            <img style="position: absolute;left: 110px;" src="./img/testimonial/testi-2.png" alt="">
+            <br>
+            <br>
+            <br>
+            <br>
+            <p style="color: grey;font-size:small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales libero sit amet luctus suscipit. Sed convallis placerat eros, eu vehicula dui aliquet sit amet. </p>
+            <p style="font-weight: bold;" >Big Guy</p>
+            <p style="font-weight: bold;color: grey;font-size:small" >Ceo at Google</p>
+
+        </div>
+
+        <div style="width: 300px;position: absolute;left: 900px;text-align: center;">
+            <img style="position: absolute;left: 110px;" src="./img/testimonial/testi-2.png" alt="">
+            <br>
+            <br>
+            <br>
+            <br>
+            <p style="color: grey;font-size:small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales libero sit amet luctus suscipit. Sed convallis placerat eros, eu vehicula dui aliquet sit amet. </p>
+            <p style="font-weight: bold;" >Big Guy</p>
+            <p style="font-weight: bold;color: grey;font-size:small" >Ceo at Google</p>
+
+            <div>
+                <div style = "width: 15px;height:15px;background-color: aqua;float: left;position:absolute;left: -20px;"></div>
+                <div style = "width: 15px;height:15px;background-color: darkslategray;float: left;"> </div>
+                <div style = "width: 15px;height:15px;background-color: darkslategray;float: left;position:absolute;left: 20px;"></div>
+    
+            </div>
+                
+
+        </div>
+
+    </div>
+   
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="container" style="background-color: rgb(240,240,240);height: 150px;background-image: url(./img/logo.png);background-repeat: repeat-x;">
+
+
+    </div>
+
+   <div class="container" style="background-color:rgb(18, 13, 63);height:350px;padding: 60px 50px 60px 60px;">
+
+        <div class="float-container" >
+
+            <div class="float-child">
+                <div  style="height: 120px; width:200px;">
+                    <h6 style="color:aliceblue;font-weight: bolder;">ABOUT AGENCY</h6>
+                    <br>
+                    <p style="color: grey;font-size:x-small;text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales libero sit amet luctus suscipit. Sed convallis placerat eros, eu vehicula dui aliquet sit amet. Nam ultricies metus vel elit sodales placerat. Curabitur sed dui aliquam.</p>
+                </div>
+            </div>
+        
+            <div class="float-child" >
+                <div style="height: 110px; width:200px;">
+                    <h6 style="color:aliceblue;font-weight: bolder;padding-left: 30px;">NAVIGATION LINKS</h6>
+                    <br>
+                    <ul style="list-style-type: none;float: left;font-size: x-small;">
+                        <li> <a style="color: gray;text-decoration: none;" href="#">Home</a> </li> <br>
+                        <li> <a style="color: gray;text-decoration: none;" href="#">Feature</a> </li><br>
+                        <li> <a style="color: gray;text-decoration: none;" href="#">Services</a> </li><br>
+                        <li> <a style="color: gray;text-decoration: none;" href="#">Portfolio</a> </li><br> 
+                        
+                    </ul>
+                    <ul style="list-style-type: none;float: left;font-size: x-small;">
+                        <li> <a style="color: gray;text-decoration: none;" href="#">Team</a> </li><br>
+                        <li> <a style="color: gray;text-decoration: none;" href="#">Prices</a> </li><br>
+                        <li> <a style="color: gray;text-decoration: none;" href="#">Blog</a> </li><br>
+                        <li> <a style="color: gray;text-decoration: none;" href="#">Contact</a> </li><br>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="float-child">
+                <div  style="height: 120px; width:270px;">
+                    <h6 style="color:aliceblue;font-weight: bolder;">NEWSLETTER</h6>
+                    <br>
+                    <p style="color: grey;font-size:x-small;text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. sit amet, consectetur adipiscing sit amet, consectetur adipiscing</p>
+                    
+                   
+                    <input type="text" placeholder=" Email Address" style="width: 220px; height: 35px;background-color:rgb(18, 13, 63);border-color: white;border: 1px solid white;">
+                    <button type="button" style="background-image: url(./img/icons/free-paper-plane-icon-2563-thumb.png); width:35px;height:35px;border:1px solid aquamarine;background-position: 0px 0px;background-repeat: no-repeat;background-size: contain;background-color: aquamarine;position: relative;top:10px;left:-4px"></button>
+                </div>
+            </div>
+
+            <div class="float-child">
+                <div  style="height: 120px; width:240px;">
+                    <h6 style="color:aliceblue;font-weight: bolder;">INSTAFEED</h6>
+                    <br>
+                    <img src="./img/instagram/Image-01.jpg" alt="" style="float: left;padding: 0px 5px 5px 0px;height: 50px;width: 50px;">
+                    <img src="./img/instagram/Image-02.jpg" alt="" style="float: left;padding: 0px 5px 5px 0px;height: 50px;width: 50px;">
+                    <img src="./img/instagram/Image-03.jpg" alt="" style="float: left;padding: 0px 5px 5px 0px;height: 50px;width: 50px;">
+                    <img src="./img/instagram/Image-04.jpg" alt="" style="float: left;padding: 0px 5px 5px 0px;height: 50px;width: 50px;">
+                    
+                    <img src="./img/instagram/Image-05.jpg" alt="" style="float: left;padding: 0px 5px 5px 0px;height: 50px;width: 50px;">
+                    <img src="./img/instagram/Image-06.jpg" alt="" style="float: left;padding: 0px 5px 5px 0px;height: 50px;width: 50px;">
+                    <img src="./img/instagram/Image-07.jpg" alt="" style="float: left;padding: 0px 5px 5px 0px;height: 50px;width: 50px;">
+                    <img src="./img/instagram/Image-08.jpg" alt="" style="float: left;padding: 0px 5px 5px 0px;height: 50px;width: 50px;">
+
+                </div>
+            </div>
+
+
+            <div class="float-child" style="border-bottom: 1px solid grey; width:100%">
+            </div>
+
+            <div class="float-child">
+                <div style="">
+                    <p style="font-size: x-small;color:grey;">Copyright © 2022 All Rights Reserved</p>
+                </div>
+            </div>
+            <div class="float-child">
+                <div style="padding-left: 680px;">
+                    <a href="https://www.reddit.com/" style="text-decoration: none;"> <img src="./img/icons/reddit.png" alt="" style = "width: 25px; height: 20px;padding-right: 7px;">
+                    <a href="https://twitter.com/login" style="text-decoration: none;"><img src="./img/icons/twitter.png" alt="" style = "width: 25px; height: 20px;padding-right: 5px;">
+                    <a href="https://www.facebook.com/" style="text-decoration: none;"><img src="./img/icons/facebook.png" alt="" style = "width: 25px; height: 20px;padding-right: 5px;">
+                    <a href="https://www.tumblr.com/" style="text-decoration: none;"><img src="./img/icons/tumblr.png" alt="" style = "width: 25px; height: 20px;padding-right: 5px;">
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+   </div>
     
 
 </body>
